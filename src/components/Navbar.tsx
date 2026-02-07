@@ -1,22 +1,39 @@
 "use client";
 
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (isOpen) {
+        document.body.style.overflow = "hidden";
+    } else { 
+        document.body.style.overflow = "";
+    }
+    return () => {
+        document.body.style.overflow = "";
+    }
+  }, [isOpen]);
 
   return (
     <div className="fixed w-full z-50 px-4 md:px-10 py-6">
       <nav className="max-w-7xl mx-auto flex justify-between items-center bg-white/80 backdrop-blur-md px-6 py-4 rounded-2xl border border-slate-100 shadow-sm">
         {/* Logo */}
-        <a href="#" className="flex items-center space-x-3 group">
-          <div className="w-8 h-8 bg-dark group-hover:bg-brand rounded-full flex items-center justify-center text-white text-[12px] font-bold transition-all duration-300">
-            o
-          </div>
-          <span className="font-extrabold text-dark tracking-tighter text-xl uppercase">
-            OSEEKA
+        <a href="#" className="flex items-center gap-2 group">
+          <Image
+            src="/logo-oseeka.svg"
+            alt="Oseeka Studio"
+            width={28}
+            height={28}
+            className="group-hover:opacity-80 transition-opacity -my3 text-brand"
+          />
+          <span className="font-extrabold text-dark tracking-tighter text-xl">
+            Oseeka<span className="text-brand">.</span>
           </span>
+              
         </a>
 
         {/* Desktop Menu */}
@@ -36,7 +53,7 @@ export default function Navbar() {
         </div>
 
         {/* Action Button Desktop */}
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <a href="#contact" className="bg-dark hover:bg-brand text-white px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 shadow-lg active:scale-95">
             Démarrer un projet
           </a>
@@ -54,7 +71,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div className="lg:hidden absolute top-28 left-4 right-4 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn">
+        <div className="lg:hidden absolute top-28 left-4 right-4 md:left-10 md:right-10 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn">
           <a href="#offres" onClick={() => setIsOpen(false)} className="block text-dark font-bold text-lg">
             nos offres
           </a>

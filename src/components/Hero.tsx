@@ -5,7 +5,7 @@ export default function Hero() {
         <h1 className="text-5xl font-extrabold text-dark">
           Oseeka <span className="font-serif-italic text-brand">Studio</span>
         </h1>
-        <p className="text-slate-400 mt-4 text-lg">
+        <p className="text-slate-400 mt-4 text-lg ">
           Hero en construction...
         </p>
       </div>
