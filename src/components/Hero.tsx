@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl md:text-[5.5rem] font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter">
+            <h1 className="text-4xl md:text-[4.5rem] font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter">
               un site qui remplit{" "}
               <br />
               <span className="font-serif-italic text-brand">
@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-xl md:text-2xl text-slate-400 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium">
+            <p className="text-base md:text-lg text-slate-400 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
@@ -71,7 +71,7 @@ export default function Hero() {
                 <img
                   src="/hero-image.webp"
                   alt="Professionnelle souriante - Oseeka Studio"
-                  className="w-full aspect-4/5 object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                  className="w-full aspect-3/4 object-cover object-top  grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                 />
                 <div className="absolute inset-0 bg-brand/5 mix-blend-multiply opacity-20" />
                 <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent" />
