@@ -19,7 +19,7 @@ export default function Hero() {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-[2rem] sm:text-6xl  md:text-7xl lg:text-[4.8rem] font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter">
+            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter  ">
               un site qui remplit{" "}
               <br className="hidden sm:block" />
               <span className="font-serif-italic text-brand">
@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-base sm:text-xl md:text-xl lg:text-xl text-slate-400 max-w-xl mb-8 md:mb-10 leading-relaxed font-medium">
+            <p className="text-lg sm:text-xl/8 text-slate-400 max-w-xl mb-8 md:mb-10 leading-relaxed font-medium text-pretty">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
