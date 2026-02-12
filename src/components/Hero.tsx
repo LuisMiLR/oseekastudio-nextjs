@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="lg:w-1/2">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-full mb-6 md:mb-8 max-w-full">
-              <span className="text-dark/40 text-[9px] font-black uppercase tracking-wider sm:tracking-widest italic">
+              <span className="text-dark/40 text-[10px] font-black uppercase tracking-wider sm:tracking-widest italic">
                 l&apos;excellence digitale pour les ind&#233;pendants exigeants
               </span>
             </div>
@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="texte-base sm:text-xl md:text-xl lg:text-xl text-slate-400 max-w-xl mb-8 md:mb-10 leading-relaxed font-medium">
+            <p className="text-base sm:text-xl md:text-xl lg:text-xl text-slate-400 max-w-xl mb-8 md:mb-10 leading-relaxed font-medium">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
