@@ -19,8 +19,8 @@ export default function Hero() {
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter  ">
-              un site qui remplit{" "}
+            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter">
+              Un site qui remplit{" "}
               <br className="hidden sm:block" />
               <span className="font-serif-italic text-brand">
                 votre carnet de
@@ -51,7 +51,7 @@ export default function Hero() {
             </div>
 
             {/* Social Proof */}
-            <div className="flex items-center space-x-4 border-t border-slate-100 pt-6">
+            <div className="flex items-center space-x-4 border-t border-slate-100 pt-8">
               <div className="flex text-brand">
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} size={16} fill="currentColor" />
@@ -71,7 +71,7 @@ export default function Hero() {
                 <img
                   src="/hero-image.webp"
                   alt="Professionnelle souriante - Oseeka Studio"
-                  className="w-full aspect-4/5 object-cover object-top grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                  className="w-full aspect-4/5 max-h-144 object-cover  grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                 />
                 <div className="absolute inset-0 bg-brand/5 mix-blend-multiply opacity-20" />
                 <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent" />
