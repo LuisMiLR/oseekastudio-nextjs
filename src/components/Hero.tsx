@@ -14,7 +14,7 @@ export default function Hero() {
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-full mb-6 md:mb-8 max-w-full">
               <span className="text-dark/40 text-[10px] font-black uppercase tracking-wider sm:tracking-widest italic">
-                l&apos;excellence digitale pour les ind&#233;pendants exigeants
+                Partenaire web pour entrepreneurs exigeants
               </span>
             </div>
 
