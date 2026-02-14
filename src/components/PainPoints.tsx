@@ -15,7 +15,7 @@ export default function PainPoints() {
 
           {/* Left: Card with Negative Points */}
           <div className="lg:w-1/2 w-full max-w-xl lg:max-w-none">
-           <div className="bg-[#F8F9FB] p-6 sm:p-10  md:p-14 lg:p-10 xl:p-16 rounded-[2.5rem] sm:rounded-[3.5rem] border border-slate-100 relative overflow-hidden">
+           <div className="bg-light-bg p-6 sm:p-10  md:p-14 lg:p-10 xl:p-16 rounded-[2.5rem] sm:rounded-[3.5rem] border border-slate-100 relative overflow-hidden">
 
               {/* Le petit halo de lumière en haut à droite */}
               <div className="absolute top-0 right-0 w-40 h-40 bg-brand/5  rounded-full -mr-20 -mt-20 blur-3xl" />
