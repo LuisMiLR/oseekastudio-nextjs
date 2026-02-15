@@ -12,7 +12,7 @@ export default function Hero() {
           {/* Left Column: Content */}
           <div className="lg:w-1/2">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10  max-w-full">
+            <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10 max-w-full">
               <span className="text-dark/40 text-[10px] font-black uppercase tracking-wider sm:tracking-widest italic">
                 Partenaire web pour entrepreneurs exigeants
               </span>
