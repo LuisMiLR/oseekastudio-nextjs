@@ -12,14 +12,14 @@ export default function Hero() {
           {/* Left Column: Content */}
           <div className="lg:w-1/2">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-6 md:mb-8 max-w-full">
+            <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10  max-w-full">
               <span className="text-dark/40 text-[10px] font-black uppercase tracking-wider sm:tracking-widest italic">
                 Partenaire web pour entrepreneurs exigeants
               </span>
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-8 md:mb-10 tracking-tighter">
+            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-10 md:mb-12 tracking-tighter">
               Un site qui remplit{" "}
               <br className="hidden sm:block" />
               <span className="font-serif-italic text-brand">
@@ -30,14 +30,14 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-lg sm:text-xl/8 text-slate-400 max-w-xl mb-8 md:mb-10 leading-relaxed font-medium text-pretty">
+            <p className="text-lg sm:text-xl/8 text-slate-400 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium text-pretty">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row items-start gap-4 mb-10 md:mb-12">
+            <div className="flex flex-col sm:flex-row items-start gap-4 mb-12 md:mb-12">
               <button className="group w-full sm:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 flex items-center justify-center gap-3">
                 R&#233;server mon diagnostic
                 <ArrowUpRight
