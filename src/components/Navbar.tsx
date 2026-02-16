@@ -28,16 +28,12 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div
-      className={`fixed w-full z-50 px-4 md:px-10 transition-all duration-700ease-in-out ${
-        isScrolled ? "pt-4" : "pt-0"
-      }`}
-    >
+    <div className="fixed w-full z-50 top-6 px-4 md:px-10 transition-all duration-500">
       <nav
-        className={`mx-auto max-w-7xl flex justify-between items-center px-6 transition-allduration-700 ease-in-out ${
+        className={`mx-auto max-w-7xl flex justify-between items-center px-6 rounded-2xl transition-all duration-500 ease-in-out ${
           isScrolled
-            ? "py-4 bg-white/80 backdrop-blur-md rounded-2xl border border-slate-100 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.08)]"
-            : "py-8 bg-transparent rounded-2xl border border-transparent shadow-none"
+            ? "py-4 bg-white/80 backdrop-blur-md border border-slate-100 shadow-xl shadow-black/3"
+            : "py-5 bg-white/40 backdrop-blur-sm border border-transparent"
         }`}
       >
         {/* Logo */}
@@ -47,7 +43,7 @@ export default function Navbar() {
             alt="Oseeka Studio"
             width={28}
             height={28}
-            className="group-hover:opacity-80 transition-opacity -my3 text-brand"
+            className="group-hover:opacity-80 transition-opacity -my-3 text-brand"
           />
           <span className="font-extrabold text-dark tracking-tighter text-xl">
             Oseeka<span className="text-brand">.</span>
@@ -104,9 +100,7 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-        <div
-          className={`lg:hidden absolute ${isScrolled ? "top-24" : "top-20"} left-4 right-4 md:left-10 md:right-10 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn`}
-        >
+        <div className="lg:hidden absolute top-20 left-4 right-4 md:left-10 md:right-10 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn">
           <a
             href="#offres"
             onClick={() => setIsOpen(false)}
