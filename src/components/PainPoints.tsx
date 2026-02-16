@@ -57,7 +57,7 @@ export default function PainPoints() {
 
           {/* Right: Heading & CTA */}
           <div className="lg:w-1/2 w-full flex flex-col justify-center">
-            <h2 className="text-3xl sm:text-[42px] lg:text-5xl xl:text-6xl font-extrabold text-dark mb-8 sm:mb-12 leading-[0.95] tracking-tighter lowercase-heading">
+            <h2 className="text-3xl sm:text-4xl md:text-[42px] lg:text-5xl xl:text-6xl font-extrabold text-dark mb-8 sm:mb-12 leading-[0.95] tracking-tighter lowercase-heading">
               Reprenez le contrôle de votre{" "}<br className="hidden sm:block" /> <span className="font-serif-italic text-brand">croissance.</span>
             </h2>
             <p className="text-lg sm:text-xl/8 text-slate-500 mb-14 max-w-xl leading-relaxed font-medium">
