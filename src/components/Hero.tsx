@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="lg:w-1/2">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10 max-w-full">
-              <span className="text-dark/40 text-[10px] font-black uppercase tracking-wider sm:tracking-widest italic">
+              <span className="text-slate-500/60 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
                 Partenaire web pour entrepreneurs exigeants
               </span>
             </div>
@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-lg sm:text-xl/8 text-slate-400 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium text-pretty">
+            <p className="text-lg sm:text-xl/8 text-slate-500 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium text-pretty">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
