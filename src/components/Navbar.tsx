@@ -1,6 +1,6 @@
 "use client";
 
-import { useState,useEffect } from "react";
+import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import Image from "next/image";
 
@@ -10,13 +10,13 @@ export default function Navbar() {
 
   useEffect(() => {
     if (isOpen) {
-        document.body.style.overflow = "hidden";
-    } else { 
-        document.body.style.overflow = "";
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
     }
     return () => {
-        document.body.style.overflow = "";
-    }
+      document.body.style.overflow = "";
+    };
   }, [isOpen]);
 
   useEffect(() => {
@@ -28,14 +28,18 @@ export default function Navbar() {
   }, []);
 
   return (
-    <div className={`fixed w-full z-50 transition-all duration-500 ease-in-out ${
-      isScrolled ? "pt-6 px-4 md:px-10" : "pt-0 px-0"
-    }`}>
-     <nav className={`mx-auto flex justify-between items-center transition-all duration-500 ease-in-out ${
-        isScrolled
-          ? "max-w-7xl bg-white/80 backdrop-blur-md px-6 py-4 rounded-2xl border border-slate-100 shadow-xl"
-          : "max-w-full bg-transparent px-6 md:px-10 py-8 rounded-none border-transparent shadow-none"
-      }`}>
+    <div
+      className={`fixed w-full z-50 px-4 md:px-10 transition-all duration-700ease-in-out ${
+        isScrolled ? "pt-4" : "pt-0"
+      }`}
+    >
+      <nav
+        className={`mx-auto max-w-7xl flex justify-between items-center px-6 transition-allduration-700 ease-in-out ${
+          isScrolled
+            ? "py-4 bg-white/80 backdrop-blur-md rounded-2xl border border-slate-100 shadow-[0_8px_40px_-12px_rgba(0,0,0,0.08)]"
+            : "py-8 bg-transparent rounded-2xl border border-transparent shadow-none"
+        }`}
+      >
         {/* Logo */}
         <a href="#" className="flex items-center gap-2 group">
           <Image
@@ -48,28 +52,42 @@ export default function Navbar() {
           <span className="font-extrabold text-dark tracking-tighter text-xl">
             Oseeka<span className="text-brand">.</span>
           </span>
-              
         </a>
 
         {/* Desktop Menu */}
         <div className="hidden lg:flex items-center space-x-10">
-          <a href="#offres" className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold">
+          <a
+            href="#offres"
+            className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold"
+          >
             nos offres
           </a>
-          <a href="#realisations" className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold">
+          <a
+            href="#realisations"
+            className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold"
+          >
             réalisations
           </a>
-          <a href="#methode" className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold">
+          <a
+            href="#methode"
+            className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold"
+          >
             méthode
           </a>
-          <a href="#contact" className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold">
+          <a
+            href="#contact"
+            className="text-dark/70 hover:text-brand transition-colors text-sm font-semibold"
+          >
             contact
           </a>
         </div>
 
         {/* Action Button Desktop */}
         <div className="hidden lg:block">
-          <a href="#contact" className="bg-dark hover:bg-brand text-white px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 shadow-lg active:scale-95">
+          <a
+            href="#contact"
+            className="bg-dark hover:bg-brand text-white px-8 py-3 rounded-xl text-sm font-bold transition-all duration-300 shadow-lg active:scale-95"
+          >
             Démarrer un projet
           </a>
         </div>
@@ -86,17 +104,35 @@ export default function Navbar() {
 
       {/* Mobile menu */}
       {isOpen && (
-       <div className={`lg:hidden absolute ${isScrolled ? "top-24" : "top-20"} left-4 right-4 md:left-10 md:right-10 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn`}>
-          <a href="#offres" onClick={() => setIsOpen(false)} className="block text-dark font-bold text-lg">
+        <div
+          className={`lg:hidden absolute ${isScrolled ? "top-24" : "top-20"} left-4 right-4 md:left-10 md:right-10 bg-white border border-slate-100 rounded-2xl p-8 shadow-2xl space-y-6 animate-fadeIn`}
+        >
+          <a
+            href="#offres"
+            onClick={() => setIsOpen(false)}
+            className="block text-dark font-bold text-lg"
+          >
             nos offres
           </a>
-          <a href="#realisations" onClick={() => setIsOpen(false)} className="block text-dark font-bold text-lg">
+          <a
+            href="#realisations"
+            onClick={() => setIsOpen(false)}
+            className="block text-dark font-bold text-lg"
+          >
             réalisations
           </a>
-          <a href="#methode" onClick={() => setIsOpen(false)} className="block text-dark font-bold text-lg">
+          <a
+            href="#methode"
+            onClick={() => setIsOpen(false)}
+            className="block text-dark font-bold text-lg"
+          >
             méthode
           </a>
-          <a href="#contact" onClick={() => setIsOpen(false)} className="block bg-dark text-white px-6 py-4 rounded-xl text-center font-bold">
+          <a
+            href="#contact"
+            onClick={() => setIsOpen(false)}
+            className="block bg-dark text-white px-6 py-4 rounded-xl text-center font-bold"
+          >
             démarrer un projet
           </a>
         </div>
