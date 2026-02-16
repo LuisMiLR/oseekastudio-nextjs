@@ -22,6 +22,11 @@ body {
   scroll-behavior: smooth;
 }
 
+/* Espacement uniforme entre sections */
+.section-padding {
+  @apply py-20 md:py-26;
+}
+
 /* Classe utilitaire pour les titres en italique serif */
 .font-serif-italic {
   font-family: var(--font-playfair), serif;
