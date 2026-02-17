@@ -9,7 +9,7 @@ const points = [
 
 export default function PainPoints() {
   return (
-    <section id="expertise" className="py-32 bg-white">
+    <section id="expertise" className="section-padding bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row items-stretch gap-10 sm:gap-16 lg:gap-12 xl:gap-24">
           
