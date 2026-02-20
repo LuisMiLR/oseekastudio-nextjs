@@ -13,7 +13,7 @@ export default function Hero() {
           <div className="lg:w-1/2">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10 max-w-full">
-              <span className="text-slate-400 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
+              <span className="text-slate-500 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
                 Partenaire web pour entrepreneurs exigeants
               </span>
             </div>
@@ -30,7 +30,7 @@ export default function Hero() {
             </h1>
 
             {/* Subtitle */}
-            <p className="text-lg sm:text-xl/8 text-slate-500 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium text-pretty">
+            <p className="text-lg sm:text-xl/8 text-slate-600 max-w-xl mb-10 md:mb-12 leading-relaxed font-medium text-pretty">
               Oubliez les vitrines inutiles. Nous cr&#233;ons des outils de vente
               rapides, visibles et pens&#233;s pour d&#233;clencher des demandes de devis
               et de RDV imm&#233;diates.
@@ -57,7 +57,7 @@ export default function Hero() {
                   <Star key={i} size={16} fill="currentColor" />
                 ))}
               </div>
-              <span className="text-slate-400 text-[11px] font-bold uppercase tracking-wide">
+              <span className="text-slate-500 text-[11px] font-bold uppercase tracking-wide">
                 <span className="text-dark">+30 professionnels</span> accompagn&#233;s avec succ&#232;s
               </span>
             </div>
@@ -84,7 +84,7 @@ export default function Hero() {
                     <Bell size={16} className="animate-bounce"/>
                   </div>
                   <div>
-                    <p className="text-[8px] font-black text-slate-400 uppercase tracking-[0.15em]">
+                    <p className="text-[8px] font-black text-slate-500 uppercase tracking-[0.15em]">
                       nouveau message
                     </p>
                     <p className="text-dark font-bold text-xs">
@@ -96,7 +96,7 @@ export default function Hero() {
                   <div className="h-1 w-2/3 bg-slate-100 rounded-full overflow-hidden">
                     <div className="h-full bg-brand w-full" />
                   </div>
-                  <p className="text-[10px] text-slate-500 font-medium italic leading-tight">
+                  <p className="text-[10px] text-slate-600 font-medium italic leading-tight">
                     &quot;Bonjour, j&apos;aimerais prendre rendez-vous...&quot;
                   </p>
                 </div>

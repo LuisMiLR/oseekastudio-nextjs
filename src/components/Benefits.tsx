@@ -57,7 +57,7 @@ export default function Benefits() {
                 <div className="text-brand bg-brand/5 p-4 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500">
                   {benefit.icon}
                 </div>
-                <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 group-hover:text-brand transition-colors">
+                <span className="text-[9px] font-black uppercase tracking-widest text-slate-500 group-hover:text-brand transition-colors">
                   {benefit.tag}
                 </span>
               </div>
@@ -66,7 +66,7 @@ export default function Benefits() {
                 {benefit.title}
               </h3>
 
-              <p className="text-slate-500 text-sm md:text-base leading-relaxed font-medium">
+              <p className="text-slate-600 text-sm md:text-base leading-relaxed font-medium">
                 {benefit.desc}
               </p>
             </div>
@@ -75,7 +75,7 @@ export default function Benefits() {
 
         {/* Footer */}
         <div className="mt-8 md:mt-16 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-slate-500 font-medium italic text-center md:text-left">
+          <p className="text-slate-600 font-medium italic text-center md:text-left">
             &ldquo;Ce n&apos;est pas une dépense, c&apos;est l&apos;actif le
             plus rentable de votre entreprise.&rdquo;
           </p>

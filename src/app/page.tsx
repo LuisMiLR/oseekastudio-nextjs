@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import PainPoints from "@/components/PainPoints";
 import Benefits from "@/components/Benefits";
 import Services from "@/components/Services";
+import Philosophy from "@/components/Philosophy";
 
 export default function Home() {
   return (
@@ -13,8 +14,8 @@ export default function Home() {
         <Hero />
         <PainPoints />
         <Benefits />
+        <Philosophy />
         <Services />
-        {/* Les autres sections seront ajoutées ici une par une */}
       </main>
       <Footer />
     </div>
