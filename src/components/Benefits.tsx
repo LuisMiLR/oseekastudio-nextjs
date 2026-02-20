@@ -36,9 +36,9 @@ export default function Benefits() {
           <span className="text-brand font-black text-[10px] uppercase tracking-[0.3em] mb-6 block">
             Votre transformation
           </span>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-dark leading-[0.95] tracking-tighter">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[44px] xl:text-5xl font-extrabold text-dark leading-[0.95] tracking-tighter">
             Le résultat : un business{" "}
-            <br className="hidden sm:block" />
+            <br className="block" />
             qui{" "}
             <span className="font-serif-italic text-brand">
               respire enfin.
@@ -57,7 +57,7 @@ export default function Benefits() {
                 <div className="text-brand bg-brand/5 p-4 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500">
                   {benefit.icon}
                 </div>
-                <span className="text-[9px] font-black uppercase tracking-widest text-slate-300 group-hover:text-brand transition-colors">
+                <span className="text-[9px] font-black uppercase tracking-widest text-slate-400 group-hover:text-brand transition-colors">
                   {benefit.tag}
                 </span>
               </div>
@@ -66,7 +66,7 @@ export default function Benefits() {
                 {benefit.title}
               </h3>
 
-              <p className="text-slate-400 text-sm leading-relaxed font-medium">
+              <p className="text-slate-500 text-sm md:text-base leading-relaxed font-medium">
                 {benefit.desc}
               </p>
             </div>
@@ -75,7 +75,7 @@ export default function Benefits() {
 
         {/* Footer */}
         <div className="mt-8 md:mt-16 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-slate-400 font-medium italic text-center md:text-left">
+          <p className="text-slate-500 font-medium italic text-center md:text-left">
             &ldquo;Ce n&apos;est pas une dépense, c&apos;est l&apos;actif le
             plus rentable de votre entreprise.&rdquo;
           </p>

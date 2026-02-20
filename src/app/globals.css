@@ -24,7 +24,7 @@ body {
 
 /* Espacement uniforme entre sections */
 .section-padding {
-  @apply py-20 md:py-26;
+  @apply py-16 md:py-20;
 }
 
 /* Classe utilitaire pour les titres en italique serif */

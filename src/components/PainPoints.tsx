@@ -25,7 +25,7 @@ export default function PainPoints() {
                 <div className="w-14 h-14 bg-white/10 rounded-2xl flex items-center justify-center text-brand shadow-sm border border-slate-100 group-hover:bg-brand group-hover:text-white transition-all duration-500">
                   <AlertCircle size={28} strokeWidth={1.5} />
                 </div>
-                <div className="text-slate-300 text-[9px] sm:text-[10px] font-black uppercase tracking-[0.3em] block">Diagnostic web
+                <div className="text-slate-400 text-[9px] sm:text-[10px] font-black uppercase tracking-[0.3em] block">Diagnostic web
                 </div>
               </div>
 
@@ -57,15 +57,15 @@ export default function PainPoints() {
 
           {/* Right: Heading & CTA */}
           <div className="lg:w-1/2 w-full flex flex-col justify-center">
-            <h2 className="text-3xl sm:text-4xl md:text-[42px] lg:text-5xl xl:text-6xl font-extrabold text-dark mb-8 sm:mb-12 leading-[0.95] tracking-tighter lowercase-heading">
-              Reprenez le contrôle de votre{" "}<br className="hidden sm:block" /> <span className="font-serif-italic text-brand">croissance.</span>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[44px] xl:text-5xl font-extrabold text-dark mb-8 sm:mb-12 leading-[0.95] tracking-tighter lowercase-heading">
+              Reprenez le contrôle de votre{" "}<br className="lg:hidden" /><span className="font-serif-italic text-brand">croissance.</span>
             </h2>
             <p className="text-lg sm:text-xl/8 text-slate-500 mb-14 max-w-xl leading-relaxed font-medium">
               Un artisan n'a pas besoin d'un site "artistique". Il a besoin d'un outil 
               qui rassure immédiatement le client et déclenche l'appel.
             </p>
-            <div className="flex flex-col sm:flex-row items-center gap-10">
-              <button className="w-full sm:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 whitespace-nowrap">
+            <div className="flex flex-col min-[540px]:flex-row items-center gap-10 max-w-sm min-[540px]:max-w-none mx-auto min-[540px]:mx-0">
+              <button className="w-full min-[540px]:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 whitespace-nowrap">
                 Analyser mon site actuel
               </button>
               <div className="flex items-center space-x-4">

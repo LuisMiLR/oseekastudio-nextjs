@@ -13,13 +13,13 @@ export default function Hero() {
           <div className="lg:w-1/2">
             {/* Badge */}
             <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10 max-w-full">
-              <span className="text-slate-500/60 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
+              <span className="text-slate-400 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
                 Partenaire web pour entrepreneurs exigeants
               </span>
             </div>
 
             {/* Main Heading */}
-            <h1 className="text-5xl sm:text-7xl font-extrabold text-dark leading-[0.92] mb-10 md:mb-12 tracking-tighter">
+            <h1 className="text-5xl md:text-7xl font-extrabold text-dark leading-[0.92] mb-10 md:mb-12 tracking-tighter">
               Un site qui remplit{" "}
               <br className="hidden sm:block" />
               <span className="font-serif-italic text-brand">
@@ -37,15 +37,15 @@ export default function Hero() {
             </p>
 
             {/* Buttons */}
-            <div className="flex flex-col sm:flex-row items-start gap-4 mb-12 md:mb-12">
-              <button className="group w-full sm:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 flex items-center justify-center gap-3">
+            <div className="grid w-fit min-[540px]:grid-cols-[auto_auto] gap-4 mb-12 md:mb-12 mx-auto min-[540px]:mx-0">
+              <button className="group min-[540px]:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 flex items-center justify-center gap-3 whitespace-nowrap">
                 R&#233;server mon diagnostic
                 <ArrowUpRight
                   className="group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"
                   size={20}
                 />
               </button>
-              <button className="w-full sm:w-auto bg-white hover:bg-slate-50 text-dark border border-slate-200 px-7 py-4 rounded-xl text-base font-bold transition-all duration-300">
+              <button className="min-[540px]:w-auto bg-white hover:bg-slate-50 text-dark border border-slate-200 px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 whitespace-nowrap">
                 Nos r&#233;alisations
               </button>
             </div>
