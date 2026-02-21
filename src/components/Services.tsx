@@ -51,7 +51,7 @@ export default function Services() {
             </h2>
           </div>
           <div className="lg:max-w-sm">
-            <p className="text-white/50 text-lg leading-relaxed font-medium">
+            <p className="text-base sm:text-lg text-white/55 font-medium leading-relaxed">
               Un écosystème complet, pensé pour transformer votre présence en
               ligne en machine à prospects.
             </p>
@@ -80,7 +80,7 @@ export default function Services() {
                 {service.title}
               </h3>
 
-              <p className="text-white/50 text-sm md:text-base leading-relaxed font-medium mb-8">
+              <p className="text-sm sm:text-base text-white/50 font-medium leading-relaxed mb-4">
                 {service.description}
               </p>
 
@@ -88,7 +88,7 @@ export default function Services() {
                 {service.features.map((feature, idx) => (
                   <li
                     key={idx}
-                    className="flex items-center space-x-3 text-white/40 text-sm font-medium group-hover:text-white/60 transition-colors"
+                    className="flex items-center space-x-3 text-sm text-white/40 font-medium group-hover:text-white/60 transition-colors"
                   >
                     <div className="w-1.5 h-1.5 bg-brand rounded-full shrink-0"></div>
                     <span>{feature}</span>

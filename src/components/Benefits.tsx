@@ -3,25 +3,25 @@ import { TrendingUp, ShieldCheck, Clock, Award } from "lucide-react";
 const benefits = [
   {
     icon: <TrendingUp size={28} />,
-    title: "un flux constant de prospects.",
+    title: "Un flux constant de prospects.",
     desc: "Ne dépendez plus du bouche-à-oreille aléatoire. Votre site devient une machine à générer des demandes qualifiées 24h/24.",
     tag: "croissance",
   },
   {
     icon: <Award size={28} />,
-    title: "la crédibilité que vous méritez.",
+    title: "La crédibilité que vous méritez.",
     desc: "Un artisan d'exception doit avoir une image d'exception. Justifiez vos tarifs premium avec une présence digitale haut de gamme.",
     tag: "image",
   },
   {
     icon: <Clock size={28} />,
-    title: "gagnez du temps précieux.",
+    title: "Gagnez du temps précieux.",
     desc: "Filtrez les curieux et automatisez la prise de rendez-vous. Concentrez-vous sur votre métier, pas sur votre administratif.",
     tag: "efficacité",
   },
   {
     icon: <ShieldCheck size={28} />,
-    title: "sérénité technique totale.",
+    title: "Sérénité technique totale.",
     desc: "Oubliez les mises à jour et les bugs. Nous gérons tout le complexe pour que vous puissiez dormir sur vos deux oreilles.",
     tag: "confort",
   },
@@ -57,7 +57,7 @@ export default function Benefits() {
                 <div className="text-brand bg-brand/5 p-4 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500">
                   {benefit.icon}
                 </div>
-                <span className="text-[9px] font-black uppercase tracking-widest text-slate-500 group-hover:text-brand transition-colors">
+                <span className="text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:text-brand transition-colors">
                   {benefit.tag}
                 </span>
               </div>
@@ -66,7 +66,7 @@ export default function Benefits() {
                 {benefit.title}
               </h3>
 
-              <p className="text-slate-600 text-sm md:text-base leading-relaxed font-medium">
+              <p className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed">
                 {benefit.desc}
               </p>
             </div>
@@ -75,7 +75,7 @@ export default function Benefits() {
 
         {/* Footer */}
         <div className="mt-8 md:mt-16 pt-10 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-8">
-          <p className="text-slate-600 font-medium italic text-center md:text-left">
+          <p className="text-sm sm:text-base text-slate-500 font-medium italic text-center md:text-left">
             &ldquo;Ce n&apos;est pas une dépense, c&apos;est l&apos;actif le
             plus rentable de votre entreprise.&rdquo;
           </p>
