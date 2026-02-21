@@ -59,15 +59,15 @@ export default function Services() {
         </div>
 
         {/* Cards grid */}
-        <div className="grid md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8">
+        <div className="grid md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 max-w-6xl mx-auto">
           {services.map((service, index) => (
             <a
               key={index}
               href={service.href}
-              className="bg-white/5 border border-white/5 p-6 sm:p-8 xl:p-10 rounded-4xl sm:rounded-[2.5rem] transition-all duration-500 hover:bg-white/10 hover:border-brand/30 group flex flex-col items-start"
+              className="bg-white/5 border border-white/5 p-6 sm:p-8 rounded-[2.5rem] transition-all duration-500 hover:bg-white/10 hover:border-brand/30 group flex flex-col items-start"
             >
-              <div className="w-full flex justify-between items-start mb-8 sm:mb-10">
-                <div className="w-14 h-14 bg-brand/10 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-500">
+              <div className=" w-full flex justify-between items-start mb-8">
+                <div className="w-12 h-12 bg-brand/10 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-500">
                   {service.icon}
                 </div>
                 <ArrowUpRight
@@ -76,7 +76,7 @@ export default function Services() {
                 />
               </div>
 
-              <h3 className="text-lg xl:text-xl font-bold mb-4 tracking-tight leading-tight">
+              <h3 className="text-lg xl:text-xl font-bold mb-6 tracking-tight leading-tight">
                 {service.title}
               </h3>
 
@@ -84,7 +84,7 @@ export default function Services() {
                 {service.description}
               </p>
 
-              <ul className="mt-4 sm:mt-6 space-y-3">
+              <ul className="mt-2 space-y-4">
                 {service.features.map((feature, idx) => (
                   <li
                     key={idx}
