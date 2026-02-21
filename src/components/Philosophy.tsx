@@ -29,14 +29,14 @@ export default function Philosophy() {
               <p className="text-dark font-extrabold text-xl tracking-tight leading-tight mb-2">
                 Pas d&apos;agence, pas d&apos;intermédiaires, pas de jargon.
               </p>
-              <p className="text-base text-slate-600 leading-relaxed font-medium">
-                Oseeka est un studio indépendant taillé pour les professionnels indépendants qui veulent un site qui travaille vraiment pour eux.
+              <p className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed">
+                Oseeka est taillé pour les professionnels indépendants qui veulent un site qui travaille vraiment pour eux.
               </p>
             </div>
 
             {/* Bloc 2 */}
             <div>
-              <p className="text-base text-slate-600 leading-relaxed font-medium">
+              <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed">
                  Mon rôle ne s&apos;arrête pas à livrer un outil.
                 Je vous explique chaque choix, je m&apos;adapte à votre métier, et je reste disponible. Un seul interlocuteur, de A à Z, sans zone d&apos;ombre.
               </p>
@@ -45,7 +45,7 @@ export default function Philosophy() {
             {/* Signature */}
             <div className="pt-4 flex flex-col items-start">
                     <div className="h-px w-12 bg-brand mb-6"></div>
-                    <span className="text-[10px] uppercase tracking-[0.2em] text-slate-500 mb-2">votre interlocuteur unique</span>
+                    <span className="text-[10px] uppercase tracking-[0.3em] text-slate-400 font-black mb-2">votre interlocuteur unique</span>
                     <span className="text-xl font-serif-italic text-dark">Luis Miguel Robles</span>
                   </div>
 
