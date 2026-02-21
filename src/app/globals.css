@@ -6,7 +6,8 @@
   --color-brand: #D17A22;
   --color-brand-light: #FDF6EC;
   --color-brand-glow: #D17A22;
-  --color-dark: #020617;
+  --color-dark: #111827;
+  --color-dark-bg: #020617;
   --color-light-bg: #F8F9FB;
 
   /* Fonts */
@@ -17,7 +18,7 @@
 /* ===== STYLES DE BASE ===== */
 body {
   font-family: var(--font-jakarta), sans-serif;
-  background-color: #ffffff;
+  background-color: #FAFAFA;
   color: #1E293B;
   scroll-behavior: smooth;
 }

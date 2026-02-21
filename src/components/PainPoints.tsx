@@ -15,7 +15,7 @@ export default function PainPoints() {
           
           {/* Left: Card harmonisée */}
 <div className="lg:w-1/2 w-full flex flex-col">
-  <div className="group h-full bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-100 shadow-sm transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1">
+  <div className="group h-full bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-200 shadow-sm transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1">
 
     {/* Header */}
     <div className="mb-6 flex justify-between items-center">

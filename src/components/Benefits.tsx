@@ -51,7 +51,7 @@ export default function Benefits() {
           {benefits.map((benefit, idx) => (
             <div
               key={idx}
-              className="bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-100 shadow-sm transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 group"
+              className="bg-white p-6 sm:p-8 rounded-[2.5rem] border border-slate-200 shadow-sm transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 group"
             >
               <div className="mb-4 sm:mb-6 flex justify-between items-start">
                 <div className="w-12 h-12 flex items-center justify-center text-brand bg-brand/5 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500">
