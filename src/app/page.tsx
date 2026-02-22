@@ -5,6 +5,7 @@ import PainPoints from "@/components/PainPoints";
 import Benefits from "@/components/Benefits";
 import Services from "@/components/Services";
 import Philosophy from "@/components/Philosophy";
+import BusinessObjectives from "@/components/BusinessObjectives";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
         <Benefits />
         <Philosophy />
         <Services />
+        <BusinessObjectives />
       </main>
       <Footer />
     </div>
