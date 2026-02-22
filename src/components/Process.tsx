@@ -44,7 +44,7 @@ export default function Process() {
             </div>
 
             {/* Badge co-construction */}
-            <div className="inline-flex items-center gap-4 bg-white/5 border border-white/10 rounded-2xl px-5 py-4 max-w-sm">
+            <div className="inline-flex items-center gap-4 bg-white/5 border border-white/10 rounded-2xl px-5 py-4 max-w-sm mt-6">
               <div className="w-10 h-10 rounded-xl bg-brand/10 flex items-center justify-center shrink-0">
                 <CheckCircle2 size={20} className="text-brand" />
               </div>
@@ -59,7 +59,7 @@ export default function Process() {
             {steps.map((step, idx) => (
               <div
                 key={idx}
-                className="bg-white/5 border border-white/5 p-6 sm:p-8 rounded-4xl flex items-start gap-6 hover:bg-white/10 hover:border-brand/30 transition-all duration-300 group"
+                className="bg-white/5 border border-white/5 p-5 sm:p-6 rounded-2xl flex items-start gap-6 hover:bg-white/10 hover:border-brand/30 transition-all duration-300 group"
               >
                 <span className="text-brand/50 text-2xl font-black group-hover:text-brand group-hover:scale-110 transition-all duration-300 shrink-0">
                   {step.num}
