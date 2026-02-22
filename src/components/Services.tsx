@@ -88,7 +88,7 @@ export default function Services() {
                 {service.features.map((feature, idx) => (
                   <li
                     key={idx}
-                    className="flex items-center space-x-3 text-sm text-text-light/40 font-medium group-hover:text-text-light/70 transition-colors"
+                    className="flex items-center space-x-3 text-sm text-text-light/50 font-medium group-hover:text-text-light/70 transition-colors"
                   >
                     <div className="w-1.5 h-1.5 bg-brand rounded-full shrink-0"></div>
                     <span>{feature}</span>
