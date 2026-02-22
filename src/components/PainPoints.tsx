@@ -4,7 +4,7 @@ const points = [
   "On ne vous trouve pas sur Google.",
   "Sur mobile, c'est trop lent : le prospect part en 3 secondes.",
   "Une structure confuse rend hesitant votre offre",
-  "Un design daté decrédibilise votre savoir",
+  "Un design daté décrédibilise votre savoir faire",
 ];
 
 export default function PainPoints() {
@@ -30,7 +30,7 @@ export default function PainPoints() {
     {/* Titre */}
     <h2 className="text-2xl sm:text-3xl font-extrabold text-dark mb-8 leading-tight tracking-tighter lowercase-heading">
       Pourquoi votre site actuel <br /> ne vous ramène aucun <br />
-      <span className="text-brand">contact ?</span>
+      <span className="text-dark">contact ?</span>
     </h2>
 
     {/* Liste */}
