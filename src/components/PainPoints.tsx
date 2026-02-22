@@ -37,8 +37,8 @@ export default function PainPoints() {
     <ul className="space-y-5 sm:space-y-6">
   {points.map((text, idx) => (
     <li key={idx} className="flex items-start space-x-4 group/item">
-      <div className="mt-2 shrink-0">
-        <div className="w-2 h-2 rounded-full bg-brand/30 group-hover/item:bg-brand group-hover/item:scale-125 transition-all duration-300"></div>
+      <div className="mt-2.5 shrink-0">
+        <div className="w-1.5 h-1.5 rounded-full bg-brand/30 group-hover/item:bg-brand group-hover/item:scale-125 transition-all duration-300"></div>
       </div>
       <span className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed transition-colors group-hover/item:text-dark">
         {text}
