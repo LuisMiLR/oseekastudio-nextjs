@@ -43,7 +43,7 @@ export default function Reassurance() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row lg:items-end gap-10 lg:gap-20 mb-16 md:mb-20">
+        <div className="flex flex-col lg:flex-row lg:items-start gap-10 lg:gap-20 mb-16 md:mb-20">
           <div className="lg:w-1/2">
             <span className="text-brand font-black text-[10px] uppercase tracking-[0.3em] mb-6 block">
               Expertise & fiabilité
@@ -55,7 +55,7 @@ export default function Reassurance() {
               </span>
             </h2>
           </div>
-          <div className="lg:w-1/2 lg:pb-2">
+          <div className="lg:w-1/2 lg:pt-14 ">
             <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed max-w-md">
               Mon parcours en finance et mon expertise technique garantissent
               une approche pragmatique : votre site est un actif, pas une

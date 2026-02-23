@@ -36,7 +36,7 @@ export default function Services() {
     <section id="services" className="py-20 md:py-28 bg-dark-bg text-text-light overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
-        <div className="flex flex-col lg:flex-row justify-between items-start lg:items-end gap-8 lg:gap-12 mb-16 md:mb-20">
+        <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12 mb-16 md:mb-20">
           <div className="max-w-3xl">
             <span className="text-brand font-black text-[10px] uppercase tracking-[0.3em] mb-6 block">
               Notre expertise
@@ -50,7 +50,7 @@ export default function Services() {
               </span>
             </h2>
           </div>
-          <div className="lg:max-w-sm">
+          <div className="lg:max-w-sm lg:pt-12 ">
             <p className="text-base sm:text-lg text-text-light/55 font-medium leading-relaxed">
               Un écosystème complet, pensé pour transformer votre présence en
               ligne en machine à prospects.

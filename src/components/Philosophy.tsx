@@ -22,7 +22,7 @@ export default function Philosophy() {
           </div>
 
           {/* Droite : blocs texte alignés en haut */}
-          <div className="lg:w-1/2 flex flex-col gap-8 lg:pt-16">
+          <div className="lg:w-1/2 flex flex-col gap-8 lg:pt-14">
 
             {/* Bloc 1 */}
             <div>
