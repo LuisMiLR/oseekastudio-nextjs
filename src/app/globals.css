@@ -8,6 +8,7 @@
   --color-brand-glow: #D17A22;
   --color-dark: #111827;
   --color-dark-bg: #020617;
+  --color-card-bg: #F8F9FB; /*Gris-bleu pour les cards*/ 
   --color-text-light:#FFFBF7 ;
   --color-light-bg: #94A3B8;
 
@@ -19,7 +20,6 @@
 /* ===== STYLES DE BASE ===== */
 body {
   font-family: var(--font-jakarta), sans-serif;
-  background-color: #FAFAFA;
   color: #1E293B;
   scroll-behavior: smooth;
 }
@@ -49,4 +49,16 @@ body {
 
 .animate-fadeIn {
   animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Animation latérale marquee */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+  will-change: transform;
+  transition: none !important;
 }
