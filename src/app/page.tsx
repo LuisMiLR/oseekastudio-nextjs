@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Philosophy from "@/components/Philosophy";
 import BusinessObjectives from "@/components/BusinessObjectives";
 import Process from "@/components/Process";
+import Reassurance from "@/components/Reassurance";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Services />
         <BusinessObjectives />
         <Process />
+        <Reassurance />
       </main>
       <Footer />
     </div>
