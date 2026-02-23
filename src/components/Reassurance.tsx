@@ -71,7 +71,7 @@ export default function Reassurance() {
               key={idx}
               className="p-8 sm:p-10 flex flex-col items-start group transition-all duration-500 bg-card-bg border border-slate-100 rounded-[2.5rem] hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 hover:bg-white"
             >
-              <div className="mb-8 p-3 bg-brand/5 border border-brand/10 rounded-2xl group-hover:bg-brand group-hover:border-brand group-hover:[&>*]:text-white transition-all duration-500">
+              <div className="mb-8 p-3 bg-brand/5 border border-brand/10 rounded-2xl group-hover:bg-brand group-hover:border-brand group-hover:*:text-white transition-all duration-500">
                 {stat.icon}
               </div>
 
@@ -100,8 +100,8 @@ export default function Reassurance() {
             </p>
           </div>
           <div className="relative flex-1 overflow-hidden">
-            <div className="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-white to-transparent z-10"></div>
-            <div className="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-white to-transparent z-10"></div>
+            <div className="absolute inset-y-0 left-0 w-32 bg-linear-to-r from-white to-transparent z-10"></div>
+            <div className="absolute inset-y-0 right-0 w-32 bg-linear-to-l from-white to-transparent z-10"></div>
             <div
               className="flex animate-marquee whitespace-nowrap items-center h-full"
               style={{ width: "max-content" }}
