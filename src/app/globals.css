@@ -62,3 +62,7 @@ body {
   will-change: transform;
   transition: none !important;
 }
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
