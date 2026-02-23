@@ -2,7 +2,7 @@ import { ArrowUpRight, Bell, Star } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col pt-30 md:pt-36 pb-12 bg-white overflow-hidden">
+    <section className="relative min-h-screen flex flex-col pt-30 md:pt-36 pb-12 overflow-hidden">
       {/* Decorative background element */}
       <div className="absolute top-0 right-0 w-1/2 h-full bg-brand/2 -skew-x-12 translate-x-1/4 z-0 hidden lg:block" />
 
@@ -12,7 +12,7 @@ export default function Hero() {
           {/* Left Column: Content */}
           <div className="lg:w-1/2">
             {/* Badge */}
-            <div className="inline-flex items-center space-x-2 bg-slate-50 border border-slate-100 px-4 py-1.5 rounded-xl mb-8 md:mb-10 max-w-full">
+            <div className="inline-flex items-center space-x-2 bg-card-bg/50 border border-slate-100 px-4 py-1.5 rounded-lg mb-8 md:mb-10 max-w-full">
               <span className="text-slate-500 text-[10px] font-black uppercase tracking-wider sm:tracking-widest">
                 Partenaire web pour entrepreneurs exigeants
               </span>
@@ -45,7 +45,7 @@ export default function Hero() {
                   size={20}
                 />
               </button>
-              <button className="min-[540px]:w-auto bg-white hover:bg-slate-50 text-dark border border-slate-200 px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 whitespace-nowrap">
+              <button className="min-[540px]:w-auto bg-white hover:bg-card-bg text-dark border border-slate-200 px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 whitespace-nowrap">
                 Nos r&#233;alisations
               </button>
             </div>

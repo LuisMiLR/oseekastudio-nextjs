@@ -11,7 +11,7 @@ const items = [
 
 export default function BusinessObjectives() {
   return (
-    <section className="section-padding bg-white overflow-hidden">
+    <section className="section-padding overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row items-center gap-16 lg:gap-24">
 
