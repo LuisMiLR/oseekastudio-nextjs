@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function Philosophy() {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
 
         <div className="flex flex-col lg:flex-row lg:gap-20 items-start">
