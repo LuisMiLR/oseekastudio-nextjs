@@ -56,8 +56,7 @@ export default function PainPoints() {
               Reprenez le contrôle de votre{" "}<br className="lg:hidden" /><span className="font-serif-italic text-brand">croissance.</span>
             </h2>
             <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed mb-14 max-w-xl">
-              Un artisan n'a pas besoin d'un site "artistique". Il a besoin d'un outil 
-              qui rassure immédiatement le client et déclenche l'appel.
+              Un artisan, un therapeute, un CGP n'a pas besoin d'un site "artistique". Il a besoin d'un outil bien référencé qui rassure immédiatement le client et qui déclenche l'appel.
             </p>
             <div className="flex flex-col min-[540px]:flex-row items-center gap-10 max-w-sm min-[540px]:max-w-none mx-auto min-[540px]:mx-0">
               <button className="w-full min-[540px]:w-auto bg-dark hover:bg-brand text-white px-7 py-4 rounded-xl text-base font-bold transition-all duration-300 shadow-2xl active:scale-95 whitespace-nowrap">
