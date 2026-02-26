@@ -37,10 +37,7 @@ const stack = [
 
 export default function Reassurance() {
   return (
-    <section
-      id="reassurance"
-      className="section-padding overflow-hidden"
-    >
+    <section id="reassurance" className="section-padding overflow-hidden">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="flex flex-col lg:flex-row lg:items-start gap-10 lg:gap-20 mb-16 md:mb-20">
@@ -57,9 +54,10 @@ export default function Reassurance() {
           </div>
           <div className="lg:w-1/2 lg:pt-14 ">
             <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed max-w-md">
-              Mon parcours en finance et mon expertise technique garantissent
-              une approche pragmatique : votre site est un actif, pas une
-              dépense.
+              Mon parcours en finance m'a appris qu'un actif doit travailler
+              pour vous. Votre site aussi. Je code chaque site avec Next.js, la technologie des
+              leaders du web, pour vous garantir une navigation ultra-rapide,
+              des données protégées et un outil qui vous appartient vraiment.
             </p>
           </div>
         </div>
@@ -96,7 +94,7 @@ export default function Reassurance() {
           <div className="flex items-center gap-4 shrink-0 pt-2.5">
             <div className="w-12 h-px bg-brand"></div>
             <p className="text-dark font-black text-[10px] uppercase tracking-[0.3em]">
-              Stack technologique premium
+              mon écosystème premium
             </p>
           </div>
           <div className="relative flex-1 overflow-hidden">
