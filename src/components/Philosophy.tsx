@@ -22,7 +22,7 @@ export default function Philosophy() {
           </div>
 
           {/* Droite : blocs texte alignés en haut */}
-          <div className="lg:w-1/2 flex flex-col gap-8 lg:pt-14">
+          <div className="lg:w-1/2 flex flex-col gap-4 lg:pt-14">
 
             {/* Bloc 1 */}
             <div>
@@ -36,7 +36,7 @@ export default function Philosophy() {
 
             {/* Bloc 2 */}
             <div>
-              <p className="text-base sm:text-lg text-slate-600 font-medium leading-relaxed">
+              <p className="text-sm sm:text-base text-slate-600 font-medium leading-relaxed">
                  Mon rôle ne s&apos;arrête pas à livrer un outil.
                 Je vous explique chaque choix, je m&apos;adapte à votre métier, et je reste disponible. Un seul interlocuteur, de A à Z, sans zone d&apos;ombre.
               </p>
