@@ -8,6 +8,7 @@ import Philosophy from "@/components/Philosophy";
 import BusinessObjectives from "@/components/BusinessObjectives";
 import Process from "@/components/Process";
 import Reassurance from "@/components/Reassurance";
+import Pricing from "@/components/Pricing";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <BusinessObjectives />
         <Process />
         <Reassurance />
+        <Pricing />
       </main>
       <Footer />
     </div>
