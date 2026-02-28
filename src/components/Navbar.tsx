@@ -41,8 +41,8 @@ export default function Navbar() {
           <Image
             src="/logo-oseeka.svg"
             alt="Oseeka Studio"
-            width={28}
-            height={28}
+            width={26}
+            height={26}
             className="group-hover:opacity-80 transition-opacity -my-3 text-brand"
           />
           <span className="font-extrabold text-dark tracking-tighter text-xl">
