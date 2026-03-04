@@ -20,7 +20,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="methode" className="section-padding bg-[#F8F8F8]">
+    <section id="methode" className="section-padding bg-page-bg">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="bg-dark-bg rounded-[2.5rem] p-8 sm:p-12 md:p-16 lg:p-20 flex flex-col lg:flex-row gap-12 lg:gap-20 overflow-hidden relative border border-white/5">
 
