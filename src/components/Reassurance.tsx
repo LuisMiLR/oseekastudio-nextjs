@@ -67,7 +67,7 @@ export default function Reassurance() {
           {stats.map((stat, idx) => (
             <div
               key={idx}
-              className="p-8 sm:p-10 flex flex-col items-start group transition-all duration-500 bg-card-bg border border-slate-200 rounded-[2.5rem] hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 hover:border-slate-300"
+              className="p-8 sm:p-10 flex flex-col items-start group transition-all duration-500 bg-card-bg border border-slate-200/90 rounded-4xl sm:rounded-[2.5rem] shadow-lg shadow-slate-200/50 hover:shadow-xl hover:shadow-slate-300/40 hover:-translate-y-1.5 hover:border-brand/20 focus-within:ring-2 focus-within:ring-brand/20"
             >
               <div className="mb-8 p-3 bg-brand/5 border border-brand/10 rounded-2xl group-hover:bg-brand group-hover:border-brand group-hover:*:text-white transition-all duration-500">
                 {stat.icon}
@@ -98,8 +98,8 @@ export default function Reassurance() {
             </p>
           </div>
           <div className="relative flex-1 overflow-hidden">
-            <div className="absolute inset-y-0 left-0 w-32 bg-linear-to-r from-[#f2f3f8] to-transparent z-10"></div>
-            <div className="absolute inset-y-0 right-0 w-32 bg-linear-to-l from-[#f2f3f8] to-transparent z-10"></div>
+            <div className="absolute inset-y-0 left-0 w-32 bg-linear-to-r from-page-bg to-transparent z-10"></div>
+            <div className="absolute inset-y-0 right-0 w-32 bg-linear-to-l from-page-bg to-transparent z-10"></div>
             <div
               className="flex animate-marquee whitespace-nowrap items-center h-full"
               style={{ width: "max-content" }}

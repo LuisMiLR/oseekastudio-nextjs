@@ -64,10 +64,10 @@ export default function Services() {
             <a
               key={index}
               href={service.href}
-              className="bg-white/5 border border-white/5 p-6 sm:p-8 rounded-[2.5rem] transition-all duration-500 hover:bg-white/5 hover:border-brand/30 group flex flex-col items-start"
+              className="bg-white/5 border border-white/5 p-6 sm:p-8 rounded-4xl sm:rounded-[2.5rem] shadow-lg shadow-black/20 transition-all duration-500 hover:border-brand/30 hover:-translate-y-1.5 focus:outline-none focus:ring-2 focus:ring-brand/20 group flex flex-col items-start"
             >
-              <div className=" w-full flex justify-between items-start mb-8">
-                <div className="w-12 h-12 bg-brand/10 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-text-light transition-all duration-500">
+              <div className="w-full flex justify-between items-start mb-8">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 shrink-0 bg-brand/10 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-text-light transition-all duration-500">
                   {service.icon}
                 </div>
                 <ArrowUpRight
