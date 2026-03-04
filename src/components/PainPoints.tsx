@@ -13,39 +13,42 @@ export default function PainPoints() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         <div className="flex flex-col lg:flex-row items-stretch gap-10 sm:gap-16 lg:gap-12 xl:gap-24">
           
-          {/* Left: Card harmonisée */}
-<div className="lg:w-1/2 w-full flex flex-col">
-  <div className="group h-full bg-card-bg p-6 sm:p-8 rounded-[2.5rem] border border-slate-200 transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 hover:border-slate-300">
+         
+{/* Left: Card harmonisée */}
+{/* Left: Card harmonisée */}
+<div className="lg:w-1/2 w-full flex flex-col min-w-0">
+  <div className="group h-full bg-card-bg p-6 sm:p-8 md:p-10 rounded-[2rem] sm:rounded-[2.5rem] border border-slate-200/90 shadow-lg shadow-slate-200/50 transition-all duration-500 hover:shadow-xl hover:shadow-slate-300/40 hover:-translate-y-1.5 hover:border-brand/20 focus-within:ring-2 focus-within:ring-brand/20">
 
     {/* Header */}
-    <div className="mb-6 flex justify-between items-center">
-      <div className="w-12 h-12 bg-brand/5 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-500">
-        <AlertCircle size={24} strokeWidth={1.5} />
+    <div className="mb-6 sm:mb-8 flex flex-wrap items-center justify-between gap-3">
+      <div className="w-12 h-12 sm:w-14 sm:h-14 bg-brand/5 rounded-2xl flex items-center justify-center text-brand group-hover:bg-brand group-hover:text-white transition-all duration-500 shrink-0">
+        <AlertCircle size={24} strokeWidth={1.5} className="sm:w-7 sm:h-7" />
       </div>
-      <span className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-400">
+      <span className="text-[10px] sm:text-[11px] font-black uppercase tracking-[0.3em] text-slate-400">
         Diagnostic web
       </span>
     </div>
 
     {/* Titre */}
-    <h2 className="text-2xl sm:text-3xl font-extrabold text-dark mb-8 leading-tight tracking-tighter lowercase-heading">
-      Pourquoi votre site actuel <br /> ne vous ramène aucun <br />
+    <h2 className="text-2xl sm:text-3xl md:text-[1.75rem] font-extrabold text-dark mb-6 sm:mb-8 leading-[1.2] tracking-tighter lowercase-heading">
+      Pourquoi votre site actuel <br className="hidden sm:block" /> ne vous ramène aucun <br className="hidden sm:block" />
       <span className="text-dark">contact ?</span>
     </h2>
 
     {/* Liste */}
-    <ul className="space-y-5 sm:space-y-6">
-  {points.map((text, idx) => (
-    <li key={idx} className="flex items-start space-x-4 group/item">
-      <div className="mt-2.5 shrink-0">
-        <div className="w-1.5 h-1.5 rounded-full bg-brand/30 group-hover/item:bg-brand group-hover/item:scale-125 transition-all duration-300"></div>
-      </div>
-      <span className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed transition-colors group-hover/item:text-dark">
-        {text}
-      </span>
-    </li>
-  ))}
-</ul>
+    <ul className="space-y-4 sm:space-y-5 md:space-y-6" role="list">
+      {points.map((text, idx) => (
+        <li
+          key={idx}
+          className="flex items-start gap-3 sm:gap-4 group/item py-1 transition-colors duration-300"
+        >
+          <div className="mt-2 sm:mt-2.5 shrink-0 w-2 h-2 rounded-full bg-brand/30 group-hover/item:bg-brand group-hover/item:scale-125 transition-all duration-300 flex items-center justify-center" aria-hidden />
+          <span className="text-sm sm:text-base text-slate-500 font-medium leading-relaxed transition-colors group-hover/item:text-dark pt-0.5">
+            {text}
+          </span>
+        </li>
+      ))}
+    </ul>
 
   </div>
 </div>
