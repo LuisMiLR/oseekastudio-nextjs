@@ -3,14 +3,13 @@
 /* ===== THÈME OSEEKA ===== */
 @theme inline {
   /* Couleurs de marque */
-  --color-brand: #D17A22;
+  --color-brand:#d16939 ;
   --color-brand-light: #FDF6EC;
   --color-brand-glow: #D17A22;
   --color-dark: #111827;
   --color-dark-bg: #020617;
-  --color-card-bg: #F8F9FB; /*Gris-bleu pour les cards*/ 
+  --color-card-bg: #f7f8fc; /* #F8F9FB Gris-bleu pour les cards*/ 
   --color-text-light:#FFFBF7 ;
-
 
   /* Fonts */
   --font-jakarta: var(--font-jakarta);

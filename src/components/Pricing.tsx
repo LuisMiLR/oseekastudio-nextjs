@@ -57,7 +57,7 @@
     };
 
     return (
-      <section id="tarifs" className="section-padding py-24 bg-white">
+      <section id="tarifs" className="section-padding py-24">
         <div className="max-w-7xl mx-auto px-6 lg:px-10">
           {/* Header */}
           <div className="text-center mb-16 md:mb-20">
@@ -78,7 +78,7 @@
 
           {/* Pricing card */}
           <div className="max-w-6xl mx-auto">
-            <div className="bg-slate-50 rounded-[2.5rem] border border-slate-100 p-8 md:p-12">
+            <div className="bg-card-bg rounded-[2.5rem] border border-slate-200 p-8 md:p-12">
               <div className="flex flex-col lg:flex-row gap-10 items-stretch">
                 {/* Left Column */}
                 <div className="lg:w-1/2 flex flex-col">
@@ -201,8 +201,8 @@
                       key={option.id}
                       className={`border rounded-2xl overflow-hidden transition-all duration-300 ${
                         isOpen
-                          ? "border-brand/40 bg-white shadow-sm"
-                          : "border-slate-200 bg-white hover:border-slate-300"
+                          ? "border-slate-300 bg-card-bg shadow-sm"
+                          : "border-slate-200 bg-card-bg hover:border-slate-300"
                       }`}
                     >
                       <button

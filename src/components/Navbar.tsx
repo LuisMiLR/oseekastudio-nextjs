@@ -32,8 +32,8 @@ export default function Navbar() {
       <nav
         className={`mx-auto max-w-7xl flex justify-between items-center px-6 lg:px-8 rounded-2xl transition-all duration-500 ease-in-out ${
           isScrolled
-            ? "py-4 bg-white/80 backdrop-blur-md border border-slate-100 shadow-xl shadow-black/3"
-            : "py-5 bg-white/40 backdrop-blur-sm border border-transparent"
+            ? "py-4 bg-[#f2f3f8]/80 backdrop-blur-md border border-slate-100 shadow-xl shadow-black/3"
+            : "py-5 bg-[#f2f3f8]/40 backdrop-blur-sm border border-transparent"
         }`}
       >
         {/* Logo */}
