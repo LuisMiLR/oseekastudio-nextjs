@@ -51,10 +51,10 @@ export default function Benefits() {
           {benefits.map((benefit, idx) => (
             <div
               key={idx}
-              className="bg-card-bg p-6 sm:p-8 rounded-[2.5rem] border border-slate-200 transition-all duration-500 hover:shadow-xl hover:shadow-black/2 hover:-translate-y-1 group hover:border-slate-300"
+              className="bg-card-bg p-6 sm:p-8 md:p-10 rounded-4xl sm:rounded-[2.5rem] border border-slate-200/90 shadow-lg shadow-slate-200/50 transition-all duration-500 hover:shadow-xl hover:shadow-slate-300/40 hover:-translate-y-1.5 hover:border-brand/20 focus-within:ring-2 focus-within:ring-brand/20 group"
             >
               <div className="mb-4 sm:mb-6 flex justify-between items-start">
-                <div className="w-12 h-12 flex items-center justify-center text-brand bg-brand/5 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 flex items-center justify-center text-brand bg-brand/5 rounded-2xl group-hover:bg-brand group-hover:text-white transition-all duration-500 shrink-0">
                   {benefit.icon}
                 </div>
                 <span className="text-[10px] font-black uppercase tracking-widest text-slate-400 group-hover:text-brand transition-colors">
