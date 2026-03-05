@@ -1,4 +1,5 @@
 import { ArrowUpRight, Bell, Star } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
@@ -67,11 +68,12 @@ export default function Hero() {
             <div className="lg:w-5/12 w-full relative max-w-md mx-auto lg:max-w-none lg:mx-0">
             <div className="relative group">
               {/* Image Container */}
-              <div className="relative rounded-[3.5rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] border border-slate-100 transform lg:-rotate-2 group-hover:rotate-0 transition-all duration-700">
-                <img
+              <div className="relative aspect-4/5 w-full max-h-144 rounded-[3.5rem] overflow-hidden shadow-[0_50px_100px_-20px_rgba(0,0,0,0.12)] border border-slate-100 transform lg:-rotate-2 group-hover:rotate-0 transition-all duration-700">                <Image
                   src="/hero-image.webp"
                   alt="Professionnelle souriante - Oseeka Studio"
-                  className="w-full aspect-4/5 max-h-144 object-cover  grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
+                  fill
+                  sizes="(max-width: 1024px) 100vw, 42vw"
+                  className="object-cover grayscale-[0.1] group-hover:grayscale-0 transition-all duration-700 scale-105 group-hover:scale-100"
                 />
                 <div className="absolute inset-0 bg-brand/5 mix-blend-multiply opacity-20" />
                 <div className="absolute inset-0 bg-linear-to-t from-black/20 via-transparent to-transparent" />
