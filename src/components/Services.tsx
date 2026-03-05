@@ -33,7 +33,7 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 md:py-28 bg-dark-bg text-text-light overflow-hidden relative">
+    <section id="services" className="py-20 md:py-28 bg-dark-bg text-slate-100 overflow-hidden relative">
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-start gap-8 lg:gap-12 mb-16 md:mb-20">
@@ -51,7 +51,7 @@ export default function Services() {
             </h2>
           </div>
           <div className="lg:max-w-sm lg:pt-12 ">
-            <p className="text-base sm:text-lg text-text-light/55 font-medium leading-relaxed">
+            <p className="text-base sm:text-lg text-slate-100/60 font-medium leading-relaxed">
               Un écosystème complet, pensé pour transformer votre présence en
               ligne en machine à prospects.
             </p>
@@ -72,7 +72,7 @@ export default function Services() {
                 </div>
                 <ArrowUpRight
                   size={20}
-                  className="text-text-light/20 group-hover:text-brand group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
+                  className="text-slate-100 group-hover:text-brand group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300"
                 />
               </div>
 
@@ -80,7 +80,7 @@ export default function Services() {
                 {service.title}
               </h3>
 
-              <p className="text-sm sm:text-base text-text-light/50 font-medium leading-relaxed mb-4">
+              <p className="text-sm sm:text-base text-slate-100/60 font-medium leading-relaxed mb-4">
                 {service.description}
               </p>
 
@@ -88,7 +88,7 @@ export default function Services() {
                 {service.features.map((feature, idx) => (
                   <li
                     key={idx}
-                    className="flex items-center space-x-3 text-sm text-text-light/50 font-medium group-hover:text-text-light/70 transition-colors"
+                    className="flex items-center space-x-3 text-sm text-slate-100/50 font-medium group-hover:text-slate-100/80 transition-colors"
                   >
                     <div className="w-1.5 h-1.5 bg-brand rounded-full shrink-0"></div>
                     <span>{feature}</span>

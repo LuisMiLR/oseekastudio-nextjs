@@ -30,14 +30,14 @@ export default function Process() {
               <span className="text-brand font-black text-[10px] uppercase tracking-[0.3em] mb-6 block">
                 Notre méthode
               </span>
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[44px] xl:text-5xl font-extrabold text-text-light leading-[0.95] tracking-tighter mb-8">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-[44px] xl:text-5xl font-extrabold text-slate-100 leading-[0.95] tracking-tighter mb-8">
                 Zéro stress.{" "}
                 <br />
                 on s&apos;occupe de{" "}
                 <br />
                 <span className="font-serif-italic text-brand">tout.</span>
               </h2>
-              <p className="text-base sm:text-lg text-text-light/55 font-medium leading-relaxed max-w-sm">
+              <p className="text-base sm:text-lg text-slate-100/60 font-medium leading-relaxed max-w-sm">
                 Vous avez un métier à faire. Nous avons le nôtre. Voici comment
                 nous allons faire décoller votre activité en 3 étapes.
               </p>
@@ -48,7 +48,7 @@ export default function Process() {
               <div className="w-10 h-10 rounded-xl bg-brand/10 flex items-center justify-center shrink-0">
                 <CheckCircle2 size={20} className="text-brand" />
               </div>
-              <span className="text-sm text-text-light/70 font-medium leading-snug">
+              <span className="text-sm text-slate-100/60 font-medium leading-snug">
                 Une avancée transparente : vous validez chaque étape clé
               </span>
             </div>
@@ -61,14 +61,14 @@ export default function Process() {
                 key={idx}
                 className="bg-white/5 border border-white/5 p-5 sm:p-6 rounded-2xl shadow-lg shadow-black/20 flex items-start gap-6 hover:border-brand/30 hover:-translate-y-1.5 transition-all duration-300 group"
               >
-                <span className="text-brand/50 text-2xl font-black group-hover:text-brand group-hover:scale-110 transition-all duration-300 shrink-0">
+                <span className="text-brand/60 text-2xl font-black group-hover:text-brand group-hover:scale-110 transition-all duration-300 shrink-0">
                   {step.num}
                 </span>
                 <div>
-                  <h3 className="text-text-light font-bold text-lg mb-2 tracking-tight">
+                  <h3 className="text-slate-100 font-bold text-lg mb-2 tracking-tight">
                     {step.title}
                   </h3>
-                  <p className="text-sm sm:text-base text-text-light/50 font-medium leading-relaxed">
+                  <p className="text-sm text-slate-100/60 font-medium leading-relaxed">
                     {step.desc}
                   </p>
                 </div>

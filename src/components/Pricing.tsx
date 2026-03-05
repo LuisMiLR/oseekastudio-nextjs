@@ -161,7 +161,7 @@
                         {technicals.map((item, idx) => (
                           <li key={idx} className="flex items-start gap-3">
                             <div className="w-1.5 h-1.5 bg-brand rounded-full mt-2 shrink-0"></div>
-                            <span className="text-slate-300 font-medium text-sm leading-relaxed">
+                            <span className="text-slate-100/80 font-medium text-sm leading-relaxed">
                               {item}
                             </span>
                           </li>
