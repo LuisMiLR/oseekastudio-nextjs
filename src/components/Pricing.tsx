@@ -145,7 +145,7 @@
 
                 {/* Right Column */}
                 <div className="lg:w-1/2 -mx-8 sm:-mx-8 lg:mx-0">
-                  <div className="relative bg-dark-bg rounded-[2rem] p-8 md:p-12 h-full flex flex-col justify-between border border-slate-800 shadow-2xl overflow-hidden">
+                  <div className="relative bg-dark-bg rounded-4xl p-8 md:p-12 h-full flex flex-col justify-between border border-slate-800 shadow-2xl overflow-hidden">
                     {/* Badge coin */}
                     <div className="absolute top-0 right-0">
                       <div className="bg-brand text-white text-[10px] font-black uppercase tracking-[0.2em]  px-4 sm:px-6 py-3 rounded-bl-2xl">
