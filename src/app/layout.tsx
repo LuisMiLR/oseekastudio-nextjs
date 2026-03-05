@@ -19,6 +19,10 @@ export const metadata: Metadata = {
   title: "Oseeka — Création de Site Vitrine à Paris",
   description:
     "Le studio web qui parle le langage des artisans. Performance, visibilité et conversion pour les entreprises exigeantes.",
+    robots: {
+      index: false,
+      follow: false,
+    }, 
 };
 
 export default function RootLayout({
